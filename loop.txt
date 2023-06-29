@@ -1,0 +1,33 @@
+Loop
+Loop  can execute a block of code as long as specified condition is reached 
+Loop are handy bcz they save time reduce error an they make code more readbale
+
+While Loop
+The while loop through a block of code as long as specified condition is true
+
+while(condition)
+{
+//block of code
+}
+
+
+do while
+the do whle loop is a variant of while loop this loop will execute the code block once before checking if condition is true or not then it will repeat the loop as long as condition is true
+
+int i=0;
+do
+{
+cout<<i<<"\n";
+i++
+}
+while(i<5)
+return 0;
+
+For loop
+When you know exactly how many times you want to loop a block of code use the for loop instant of while loop
+statement 1 is execute 1 time before the execution of code block
+           2statement 2 define the condition to executing code block
+state 3 is execute every time after the code block has been executed
+
+for(int i=0;i<10;i++)
+cout<<i<<"\n";

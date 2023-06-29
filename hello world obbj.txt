@@ -1,0 +1,17 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+class MyClass {
+    public:
+    void myMethod()
+    {
+    std::cout << "Hello world!";
+    }
+    };
+int main()
+{
+    MyClass myObj;
+    myObj.myMethod();
+    return 0;
+}

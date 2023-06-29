@@ -1,0 +1,11 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+
+int main() {
+    // TRUE 1 FALSE 0
+    int x=5;
+int y=3;
+std::cout<< (x>y &&x<10);
+  return 0;
+}
+

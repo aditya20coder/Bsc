@@ -1,0 +1,21 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+
+int main() {
+    // Write C++ code here
+    int n,i;
+    long factorial=1.0;
+    std::cout << "enter positive integer : ";
+    std::cin>>n;
+    if(n<0)
+    std::cout<<"Error factorial of negative no does not exist";
+    else
+    {
+        for(i=1;i<=n;i++)
+        {
+            factorial*=i;
+    }
+std::cout<<"factorial of "<<n<<"="<<factorial;
+}
+    return 0;
+}

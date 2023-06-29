@@ -1,0 +1,22 @@
+
+#include <iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+ int mynum=5;
+ float myf=1.2;
+ string mys="hello";
+ char let= 'd';
+ bool mybool = true;
+ double n=9.7;
+ cout<<"int: " << mynum << "\n";
+ cout<<"float: " <<myf <<"\n";
+ cout<<"string" <<mys <<"\n";
+ cout<<"char" <<let <<"\n";
+ cout<<"bool" <<mybool <<"\n";
+ cout<<"double" <<n <<"\n";
+return 0;
+}
+

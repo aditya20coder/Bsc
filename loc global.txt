@@ -1,0 +1,11 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int x=20;
+int main()
+{
+ int x=10;
+ cout<<"global"<<::x;
+ cout<<"\nlocal"<<x;
+ return 0;
+}
